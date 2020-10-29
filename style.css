@@ -1,0 +1,110 @@
+body{
+    background: url('./images/Bg.png') no-repeat center fixed;
+    background-size: cover;
+}
+
+#home{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* get-started page  */
+
+#start{
+    position: relative;
+    height: 65vh;
+    /* background: url('./images/Bg.png') no-repeat center fixed;
+    background-size: cover; */
+}
+
+#startimg{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-25%);
+}
+
+#starttext{
+    position: absolute;
+    top: 85%;
+    left: 45%;
+    transform: translate(-45%,-85%);
+}
+
+#get-started{
+    background-color: #F69836;
+}
+
+strong{
+    font-size: 20px;
+}
+
+.text-dark{
+    font-size: 12px;
+}
+
+#loginbtn{
+    font-size: 18px;
+    font-weight: 700;
+    color: #F69836;
+}
+
+@media screen and (max-width: 420px){
+    #starttext{
+        position: absolute;
+        top: 98%;
+        left: 30%;
+        transform: translate(-30%,-98%);
+    }
+}
+
+/* login page */
+
+#login{
+    position: relative;
+    height: 70vh;
+}
+
+#loginimg{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-25%);
+}
+
+.heading{
+    /* margin-top: 45px; */
+    font-size: 35px;
+    font-weight: 650;
+}
+
+#terms{
+    font-size: 16px;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 18px;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+/* otp page */
+#otp{
+    position: relative;
+    height: 70vh;
+}
+
+#otpimg{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-25%);
+}
+
+#proceed{
+    background-color: #F69836;
+    font-size: 20px;
+}
